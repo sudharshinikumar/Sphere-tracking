@@ -1,0 +1,30 @@
+﻿Build started 4/7/2013 12:32:51 PM.
+Project "Z:\Dropbox\TutorialProject\TutorialProject\TutorialProject.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Touching "Debug\TutorialProject.unsuccessfulbuild".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\osgVirtualEnvironment\/dependencies\include /IC:\osgVirtualEnvironment\/dependencies\include /IC:\osgVirtualEnvironment\/dependencies\include /IC:\osgVirtualEnvironment\\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CollisionManager.cpp Feedback.cpp GameLights.cpp GameSounds.cpp ObjectManager.cpp ObjectRegistry.cpp TrackedSphere.cpp TutorialWorld.cpp main.cpp
+  main.cpp
+z:\dropbox\tutorialproject\tutorialproject\tutorialworld.h(4): fatal error C1083: Cannot open include file: 'osgVirtualEnvironment/VirtualEnvironment.h': No such file or directory
+  TutorialWorld.cpp
+z:\dropbox\tutorialproject\tutorialproject\tutorialworld.h(4): fatal error C1083: Cannot open include file: 'osgVirtualEnvironment/VirtualEnvironment.h': No such file or directory
+  TrackedSphere.cpp
+z:\dropbox\tutorialproject\tutorialproject\trackedsphere.h(4): fatal error C1083: Cannot open include file: 'osgVirtualEnvironment/Export.h': No such file or directory
+  ObjectRegistry.cpp
+z:\dropbox\tutorialproject\tutorialproject\collisionmanager.h(4): fatal error C1083: Cannot open include file: 'osgVirtualEnvironment/VirtualEnvironment.h': No such file or directory
+  ObjectManager.cpp
+z:\dropbox\tutorialproject\tutorialproject\objectmanager.h(4): fatal error C1083: Cannot open include file: 'osgVirtualEnvironment/VirtualEnvironment.h': No such file or directory
+  GameSounds.cpp
+z:\dropbox\tutorialproject\tutorialproject\gamesounds.h(4): fatal error C1083: Cannot open include file: 'osgVirtualEnvironment/Sound.h': No such file or directory
+  GameLights.cpp
+z:\dropbox\tutorialproject\tutorialproject\gamelights.h(4): fatal error C1083: Cannot open include file: 'osgVirtualEnvironment/LightManager.h': No such file or directory
+  Feedback.cpp
+z:\dropbox\tutorialproject\tutorialproject\collisionmanager.h(4): fatal error C1083: Cannot open include file: 'osgVirtualEnvironment/VirtualEnvironment.h': No such file or directory
+  CollisionManager.cpp
+z:\dropbox\tutorialproject\tutorialproject\collisionmanager.h(4): fatal error C1083: Cannot open include file: 'osgVirtualEnvironment/VirtualEnvironment.h': No such file or directory
+  Generating Code...
+Done Building Project "Z:\Dropbox\TutorialProject\TutorialProject\TutorialProject.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:20.42
